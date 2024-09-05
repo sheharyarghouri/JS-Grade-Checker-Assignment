@@ -33,9 +33,12 @@ else if (percentage >= 60 && percentage < 70) {
 else if (percentage >= 50 && percentage < 60) {
     grade = 'D';
 }
+else if (percentage < 50) {
+    grade = 'Fail';
+}
 
 else {
-    grade = ("Fail");
+    grade = ("please type correct marks");
 }
 
 
